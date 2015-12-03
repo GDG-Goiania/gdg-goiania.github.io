@@ -1,35 +1,35 @@
 angular.module('gdgXBoomerang')
-.factory('Config', function () {
-    return {
-        // TODO Modify these to configure your app
-        'name'          : 'GDG Space Coast',
-        'id'            : '103959793061819610212',
-        'googleApi'     : '<insert your API key here>',
-        'pwaId'         : '5915725140705884785', // Picasa Web Album id, must belong to Google+ id above
-        'domain'        : 'http://www.gdgspacecoast.org',
-        'twitter'       : 'gdgspacecoast',
-        'facebook'      : 'gdgspacecoast',
-        'meetup'        : 'gdgspacecoast',
-        // Change to 'EEEE, MMMM d, y - H:mm' for 24 hour time format.
-        'dateFormat'    : 'EEEE, MMMM d, y - h:mm a',
-        'cover' : {
-            title: 'Worldwide GDG Events',
-            subtitle: 'Directory of developer events organized by tags and displayed on a global map.',
-            button: {
-                text: 'Find local events',
-                url: 'http://gdg.events/'
+    .factory('Config', function () {
+        return {
+            // TODO Modify these to configure your app
+            'name': 'GDG Goiânia',
+            'id': '113297226237632387507',
+            'googleApi': 'AIzaSyAcQ9smZMBe856V1m8_5ZzZ7XpQxiRFo4A',
+            'pwaId': '6199218429003869809', // Picasa Web Album id, must belong to Google+ id above
+            'domain': 'http://www.gdggoiania.org',
+            'twitter': 'gdggoiania',
+            'facebook': 'gdggoiania',
+            'meetup': 'pt/GDG-Goiania',
+            // Change to 'EEEE, MMMM d, y - H:mm' for 24 hour time format.
+            'dateFormat': 'EEEE, MMMM d, y - H:mm a',
+            'cover': {
+                title: 'Eventos GDG através do mundo',
+                subtitle: 'Eventos organizados por diversos GDGS',
+                button: {
+                    text: 'Procure um evento GDG',
+                    url: 'http://gdg.events/'
+                }
+            },
+            'activities': {
+                techTalks: true,
+                codeLabs: true,
+                hackathons: true,
+                devFests: true,
+                appClinics: true,
+                panels: true,
+                designSprints: true,
+                roundTables: true
             }
-        },
-        'activities': {
-            techTalks: true,
-            codeLabs: true,
-            hackathons: true,
-            devFests: true,
-            appClinics: true,
-            panels: true,
-            designSprints: true,
-            roundTables: true
-        }
-        // To update the snippet which is used for sharing, see the TODO in the index.html.
-    };
-});
+            // To update the snippet which is used for sharing, see the TODO in the index.html.
+        };
+    });
